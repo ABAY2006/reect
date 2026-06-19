@@ -1,16 +1,32 @@
-# React + Vite
+🌿 Medicinal Plant Recognition System
+📌 Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Medicinal Plant Recognition System is a web-based application that identifies medicinal plants from uploaded leaf images. The system uses the PlantNet API for plant recognition and the Wikipedia API to retrieve detailed information about the identified plant.
 
-Currently, two official plugins are available:
+This project helps users quickly identify medicinal plants and learn about their scientific names, medicinal uses, and botanical details.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Features
+Upload plant leaf images (JPG, JPEG, PNG).
+Automatic plant identification using PlantNet API.
+Fetch plant information from Wikipedia.
+Display:
+Plant Name
+Scientific Name
+Family
+Description
+Medicinal Uses
+User-friendly web interface built with Streamlit.
+🛠️ Technologies Used
+Frontend
+Streamlit
+Backend
+Python
+APIs
+PlantNet API
+Wikipedia API
+Libraries
+requests
+streamlit
+wikipedia-api
+pillow
+hiii
